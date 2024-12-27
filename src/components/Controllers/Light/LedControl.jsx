@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { Power, Loader } from 'lucide-react';
 
-const LedControl = () => {
+const LedControl = (address) => {
   const [isOn, setIsOn] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-
+  const IP = address;
   const toggleLED = async () => {
     setIsLoading(true);
     try {
-      const response = await fetch(`http://${ESP32_IP}/led/${isOn ? 'off' : 'on'}`);
+      const response = await fetch(`http://${address}/led/${isOn ? 'off' : 'on'}`);
       const data = await response.json();
       if (data.status === 'success') {
         setIsOn(data.state === 'on');
