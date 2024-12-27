@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Power, Loader, WifiOff } from 'lucide-react';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 
-const LedControl = () => {
+const LedControl = (props) => {
   const [isOn, setIsOn] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
   const [isConnected, setIsConnected] = useState(true);
 
   // Replace with your ESP32's IP address
-  const ESP32_IP = '192.168.1.100';
+  const ESP32_IP = (props.address !='')? props.address : '192.168.1.100';
 
   const checkLEDStatus = async () => {
     try {

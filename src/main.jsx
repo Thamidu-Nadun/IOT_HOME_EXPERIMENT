@@ -5,6 +5,6 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App address="192.168.18.195"/>
+    <App/>
   </StrictMode>,
 )

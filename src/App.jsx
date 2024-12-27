@@ -4,7 +4,7 @@ import LedControl from './components/Controllers/Light/LedControl'
 function App() {
   return (
     <div>
-    <LedControl/>
+    <LedControl address="192.168.18.195"/>
     </div>
   )
 }
