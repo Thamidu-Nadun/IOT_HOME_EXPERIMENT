@@ -70,7 +70,7 @@ $ cd IoT-Home-Automation
 ## 📸 Preview
 
 🚪 **Login to Your Smart Home:**
-![Login GIF](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
+![Login GIF](https://raw.githubusercontent.com/Thamidu-Nadun/IOT_HOME_EXPERIMENT/assests/assets/img_1.png)
 
 💡 **Control Your Lights with Style:**
 ![Lights Control Meme](https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif)
