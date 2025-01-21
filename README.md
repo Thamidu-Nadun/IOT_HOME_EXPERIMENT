@@ -4,6 +4,14 @@ Welcome to the **IoT Home Automation** project! 🏠✨ This repository is your 
 
 ---
 
+## 🛠️ Project Overview
+
+This project allows you to create a connected smart home system, offering a user-friendly interface to control your devices remotely. Whether you're a tech enthusiast or a beginner, this is the perfect starting point for your IoT journey! 🌐📱
+
+![Project Overview GIF](https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif)
+
+---
+
 ## 🚀 Project Structure
 
 ```
@@ -70,7 +78,7 @@ $ cd IoT-Home-Automation
 ## 📸 Preview
 
 🚪 **Login to Your Smart Home:**
-![Login GIF](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
+![Login GIF](https://raw.githubusercontent.com/Thamidu-Nadun/IOT_HOME_EXPERIMENT/assets/assets/img_1.png)
 
 💡 **Control Your Lights with Style:**
 ![Lights Control Meme](https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif)
